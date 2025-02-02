@@ -1,0 +1,57 @@
+<!-- 2) Criar um sistema para gerenciar projetos e valores de projetos, com HTML e JS. 
+O sistema deve deve seguir o layout anexo (imagem).
+O usuário deverá informar dados de 5 projeto (nome do projeto, valor cobrado por hora 
+e quantidade de horas previstas para concluir). -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerencia de Projetos</title>
+    <link rel="stylesheet" href="Programa_2_(css).css">
+</head>
+<body>
+     
+    <div class="content">
+     <h2>Gerenciador Financeiro de Projetos</h2>
+
+     <!-- Projeto 1 -->
+     <h5><label>Valor Hora |</label> <label> Quantidade Horas</label><br></h5>
+     <label>Projeto 1</label> <input id="projetoUm" placeholder="Nome do Projeto" style="width:170px;height:15px">
+     <input id="proUmValorHora" style="width:65px;height:15px"> <input id="proUmQuantHora" style="width:65px;height:15px"><br><br>
+
+     <!-- Projeto 2  -->
+     <label>Projeto 2</label> <input id="projetoDois" placeholder="Nome do Projeto" style="width:170px;height:15px">
+     <input id="proDoisValorHora" style="width:65px;height:15px"> <input id="proDoisQuantHora" style="width:65px;height:15px"><br><br>
+
+      <!-- Projeto 3 -->
+      <label>Projeto 3</label> <input id="projetoTres" placeholder="Nome do Projeto" style="width:170px;height:15px">
+      <input id="proTresValorHora" style="width:65px;height:15px"> <input id="proTresQuantHora" style="width:65px;height:15px"><br><br>
+ 
+      <!-- Projeto 4 -->
+      <label>Projeto 4</label> <input id="projetoQuatro" placeholder="Nome do Projeto" style="width:170px;height:15px">
+      <input id="proQuatroValorHora" style="width:65px;height:15px"> <input id="proQuatroQuantHora" style="width:65px;height:15px"><br><br>
+
+      <!--Projeto 5 -->
+      <label>Projeto 5</label> <input id="projetoCinco" placeholder="Nome do Projeto" style="width:170px;height:15px">
+      <input id="proCincoValorHora" style="width:65px;height:15px"> <input id="proCincoQuantHora" style="width:65px;height:15px"><br><br>
+
+      <button onclick="Calcular()">Calcular</button><br><br>
+
+      <label>Projeto 1:</label> <input id="totalProUm" readonly><br>
+      <label>Projeto 2:</label> <input id="totalProDois" readonly><br>
+      <label>Projeto 3:</label> <input id="totalProTres" readonly><br>
+      <label>Projeto 4:</label> <input id="totalProQuatro" readonly><br>
+      <label>Projeto 5:</label> <input id="totalProCinco" readonly><br><br>
+
+      <label>Total Geral:</label> <input id="totalGeral" readonly><br><br>
+
+
+      
+    </div>
+
+    <script src="Programa_2_(gerenciacao projetos).js"></script>
+
+</body>
+</html>

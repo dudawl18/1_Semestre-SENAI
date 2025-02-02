@@ -1,0 +1,21 @@
+body {
+    width: 100%;
+    background-color: LightSlateGray;
+}
+
+.tudo {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.tabela {
+    margin-top: 5%;
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(182, 192, 206);
+    border-radius: 2%;
+}

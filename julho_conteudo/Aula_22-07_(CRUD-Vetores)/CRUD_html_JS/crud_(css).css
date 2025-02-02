@@ -1,0 +1,43 @@
+body{
+  
+ background-color: #556B2F;
+
+}
+
+.content{
+
+  margin: auto;
+  padding: 1.2%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6%;
+  width: fit-content;
+  border-radius: 5px;
+  color: #F2EFBB;
+  font-family: Georgia;
+
+}
+
+input{
+
+ font-size: 17px;
+
+}
+
+h1{
+
+  width: fit-content;
+  text-align: center;
+
+}
+
+button{
+
+  width: fit-content;
+  text-align: center;
+  width: 85px;
+  height: 25px;
+  border-radius: 5%;
+  font-size: 14px;
+
+}

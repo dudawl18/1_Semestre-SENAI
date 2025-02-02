@@ -1,0 +1,57 @@
+<!-- 5) Criar um sistema de comparação de carros, de acordo com a imagem. 
+Devem ser digitadas notas de 0 a 10 para os 3 critérios (conforto, economia, design) de cada carro, 
+o que irá gerar uma média com duas casas após a vírgula. Ao clicar em comparar,
+ devem ser mostradas a médias de cada carro e o melhor carro (carro com melhor média) nos respectivos campos. -->
+
+ <!DOCTYPE html>
+ <html lang="pt-br">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Comparação de Carros</title>
+ </head>
+   <body bgcolor="OliveDrab">
+    
+      <center>
+
+       <h2>Comparação de Carros</h2>
+   
+       <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label >Conforto</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <label>Economia</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <label>Design</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <label>Média</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
+
+       <!-- Primeira linha -->
+
+       <label>Carro 1</label>
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input id="confortoUm" placeholder="Nota" style="width:55px;height:15px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <input id="economiaUm" placeholder="Nota" style="width:55px;height:15px"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <input id="designUm" placeholder="Nota" style="width:55px;height:15px"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <input id="mediaUm" style="width:55px;height:15px" readonly> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br><br>
+
+       <!-- Segunda linha -->
+
+       <label>Carro 2</label>
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input id="confortoDois" placeholder="Nota" style="width:55px;height:15px"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <input id="economiaDois" placeholder="Nota" style="width:55px;height:15px"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <input id="designDois" placeholder="Nota" style="width:55px;height:15px"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <input id="mediaDois" style="width:55px;height:15px" readonly> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br><br>
+
+       <!-- Terceira linha -->
+
+       <label>Carro 3</label>
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input id="confortoTres" placeholder="Nota" style="width:55px;height:15px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <input id="economiaTres" placeholder="Nota" style="width:55px;height:15px"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <input id="designTres" placeholder="Nota" style="width:55px;height:15px"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <input id="mediaTres" style="width:55px;height:15px" readonly> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br><br>
+       
+       <h3><label>Melhor Carro</label> &nbsp;&nbsp; <input id="melhorCarro" placeholder="Resultado" value="Resultado" style="width:80px;height:15px" readonly>
+       <button onclick="Comparacao()">Comparar</button></h3>
+
+
+      </center>
+
+      <script src="Programa_5_(comparacao-carros).js"></script>
+
+   </body>
+   </html>

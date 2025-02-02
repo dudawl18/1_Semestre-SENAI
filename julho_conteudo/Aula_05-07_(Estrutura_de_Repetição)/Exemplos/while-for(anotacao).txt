@@ -1,0 +1,9 @@
+
+ 
+ 
+ 
+ 
+ 
+ while -> Normalmente utilizado quando não se sabe a quantidade de vezes que vai ser repetido
+
+ for -> Normalmente utilizado quando se sabe a quantidade de vezes que vai se repetir.

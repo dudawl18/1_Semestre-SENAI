@@ -1,0 +1,26 @@
+body {
+   background-image: url('https://4kwallpapers.com/images/wallpapers/macos-monterey-stock-blue-light-layers-5k-4480x2520-5898.jpg');
+   background-size: cover;
+}
+
+.content {
+
+   padding: 1.5%;
+   background-color: #22202062;
+   font-family: Georgia;
+   text-align: center;
+   color: #000000;
+   border-radius: 9%;
+   margin: auto;
+   margin-top: 2%;
+   width: fit-content;
+
+}
+
+h5 {
+   display: flex;
+   justify-content: space-around;
+   margin-left: 290px;
+   text-align: right;
+
+}

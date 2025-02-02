@@ -1,0 +1,13 @@
+para dar espaço entre as palavras (para o alinhamento)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+disabled (desabilitar um elemento)
+
+exp: <button disabled>
+ou
+<input disabled>
+
+readonly (apenas para leitura, da só para ler, não da para digitar nada)
+

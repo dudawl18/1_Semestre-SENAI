@@ -1,0 +1,24 @@
+// Exemplo 1//
+// let numeroSecreto = 100
+// let numeroDigitado
+
+//     do{
+
+//       numeroDigitado = Number(prompt('Digite um número: '))
+
+//     }while(numeroDigitado != numeroSecreto){
+
+
+
+//     }
+
+ let opDigitada
+
+    do{
+
+      opDigitada = Number(prompt('1) Cadastro\n2) Editar\n3) Excluir\n4) Sair'))
+
+    }while(opDigitada != 4){
+
+
+    }
